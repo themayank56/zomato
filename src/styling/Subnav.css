@@ -1,0 +1,36 @@
+
+  .max{
+    background: rgb(15, 14, 14);
+    overflow: hidden;
+    border-radius: 10px; 
+  }
+
+  .max button span{
+      font-size: 25px;
+  }
+  .nav-item{
+    overflow: hidden; 
+  }
+  .max li{
+    font-size: 30px;
+    margin-right: 8px;
+    margin-left: 20px;
+    
+  }
+  .max ul span{
+      color: black;
+     
+  }
+
+  .menu_active{
+    font-weight: bold;
+    border-bottom: 3px solid var(--green);
+  }
+
+ 
+
+ 
+  
+  
+  
+ 

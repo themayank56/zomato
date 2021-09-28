@@ -1,0 +1,90 @@
+.footer .card{
+    border-radius: 20px;
+}
+.logo1 h1{
+    color: red;
+    font-style: italic;
+    font-size: 50px;
+    font-weight:bold;
+    float: left;
+    padding: 10px;
+    text-align: center;
+  }
+  .dropdown h1{
+      font-size: 20 px;  
+      font-weight: 800;
+  }
+  .dropdown-menu span{
+      font-size: 18px;
+      font-weight: 700;
+  }
+ .dropdown button{
+     border-radius: 10px;
+ }
+ .dropdown a:hover{
+     color: tomato;
+ }
+ 
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+
+.footer .box-container .box h3{
+    padding:.5rem 0;
+    font-size: 30px;
+    font-weight: 400;
+    color:var(--green);
+    text-align: center;
+}
+
+.footer .box-container .box a{
+    display: block;
+    padding:.5rem 0;
+    font-size: 1.6rem;
+    color:black;
+    text-align: center;
+    font-weight: 800;
+}
+
+.footer .box-container .box a:hover{
+    color:tomato;
+    text-decoration: underline;
+}
+
+.footer .credit{
+    text-align: center;
+    border-top: .1rem solid rgba(0,0,0,.1);
+    font-size: 2rem;
+    color:var(--black);
+    padding:.5rem;
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.footer .credit span{
+    color:var(--green);
+}
+
+.loader-container{
+    position: fixed;
+    top:0; left:0;
+    height:100%; 
+    width:100%;
+    z-index: 10000;
+    background:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.loader-container img{
+    width:35rem;
+}
+
+.loader-container.fade-out{
+    top:-110%;
+    opacity:0;
+}
